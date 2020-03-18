@@ -24,6 +24,7 @@
                 android:orientation="vertical">
 
                 <TextView
+                    android:id="@+id/storeNameTxt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="가게이름"
@@ -31,6 +32,7 @@
                     android:textColor="#000000"/>
 
                 <TextView
+                    android:id="@+id/storeRatingTxt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="평점 : ?점"/>
